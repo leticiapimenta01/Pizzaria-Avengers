@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(250, 250, 137);
+    color: #05053d;
+    font-family: 'Anton', sans-serif;
+    background-image: url("fundo.jpg") ;
+    background-size: 1500px 670px;
+    background-repeat: no-repeat;
+    background-position: 00px 00px;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 200px 400px 00px 400px;
+    background-color: white;
+    border-radius: 50px ;
+}
+
+a{
+    display: flex;
+    width:60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: absolute;
+    color: #babafc;
+}
+
+a:hover{
+    background: #05053d;
+}
+
+a img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.legenda{
+    display: flex;
+    position: absolute;
+    margin: 90px 450px 15px 450px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    padding: 20px 15px 15px 450px;
+    justify-content: space-between;
+}
+
+.pedido{
+    display: flex;
+    position: absolute;
+    padding: 20px 15px 15px 650px;
+    justify-content: space-between;
+}
+
+.cliente{
+    display: flex;
+    position: absolute;
+    padding: 20px 15px 15px 850px;
+}
+
+
+
+
