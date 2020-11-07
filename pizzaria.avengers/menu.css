@@ -1,0 +1,110 @@
+body{
+    background-color: #fafa89;
+    color: #05053d;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+h1, h2{
+    font-family: 'Anton', sans-serif;
+}
+
+aside.links{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.legenda{
+    display: flex;
+    position: absolute;
+    padding: 00px 2000px 15px 00px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.pizza-salgada{
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 500px;
+    position: absolute;
+}
+
+.preco-pizza-salgada{
+    text-align: center;
+    margin-left: 1000px;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+table{
+    margin: 20px;
+    border-color: #05053d;
+    font-size: 18px;
+    background-color: #a8cafc;
+}
+
+.title{
+    background-color: #7979ff;
+}
+
+.pizza-doce{
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 800px;
+    position: absolute;
+}
+
+.preco-pizza-doce{
+    text-align: center;
+    margin-left: 1000px;
+    margin-right: 20px;
+    margin-top: 820px;
+    position: absolute;
+}
+
+.combo{
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 1200px;
+    position: absolute;
+}
+
+.preco-combo{
+    text-align: center;
+    margin-left: 1000px;
+    margin-right: 20px;
+    margin-top: 1220px;
+    position: absolute;
+}
+
+.bebidas{
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 1470px;
+    position: absolute;
+}
+
+.preco-bebidas{
+    text-align: center;
+    margin-left: 920px;
+    margin-right: 20px;
+    margin-top: 1500px;
+    position: absolute;
+}

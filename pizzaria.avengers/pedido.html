@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzaria Avengers</title>
+
+    <link rel="icon"  href="logo1.png" />
+
+    <link rel="stylesheet" href="pedido.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body >
+    <aside class="links">
+        <a href="index1.html">
+          <img src="homem-ferro.png" alt="Inicio" /><br>
+          <div class="legenda">Início</div></a>
+        <a href="menu.html">
+          <img src="capitao.png" alt="Menu" /><br>
+            <div class="legenda">Cardápio</div></a>
+        <a href="cliente.html">
+          <img src="hulk.png" alt="Cadastro" /><br>
+          <div class="legenda">Cadastro</div></a>
+        <img src="vingadores.png" alt="vingadores" width="200" height="350" />
+      </aside>
+    <form>
+        <fieldset>
+            <table>
+           <legend><h2>Faça Seu Pedido</h2></legend>
+           <tr class="form">
+               <td><label for="nome">Nome: </label></td>
+               <td><input type="text" name="nome"/></td> 
+           </tr>   
+           <tr class="form">
+                <td><label for="end">Endereço:</label></td>
+                <td><input type="text" name="end"/></td>
+           </tr>
+           <tr class="form">
+               <td><label for="tel">Telefone:</label></td>
+               <td><input type="tel" name="tel"/></td>
+           </tr>
+           <tr class="form">
+               <td><label for="pizza">Tipo da pizza:</label></td>
+               <td><select name="pizza">
+                   <option value="1">Pizza salgada</option>
+                   <option value="2">Pizza doce</option>
+                   <option value="3">Combo</option>
+               </select></td>
+           </tr>
+           <tr class="form">
+               <td><label for="npizza">Número da pizza:</label></td>
+               <td><input type="number" name="npizza"/></td>
+           </tr>
+           <tr class="form">
+               <td><label for="tampizza">Tamanho da pizza:</label></td>
+               <td>
+               <input type="radio"name="tampizza" value="mini">Mini Pizza
+               <input type="radio"name="tampizza" value="grande">Grande
+               </td>
+           </tr>
+           <tr class="form">
+               <td><label for="bebida">Número da bebida:</label></td>
+               <td><input type="number" name="bebida"/></td>
+           </tr>
+           <tr class="form">
+               <td><label for="acomp">Acompanhamento:</label></td>
+               <td>
+               <input type="checkbox" name="acomp" value="0"/>Nenhum
+               <input type="checkbox" name="acomp" value="1"/>Batata frita
+               <input type="checkbox" name="acomp" value="2"/>Cebola
+               <input type="checkbox" name="acomp" value="3"/>Milho
+               <input type="checkbox" name="acomp" value="4"/>Azeitona
+               <input type="checkbox" name="acomp" value="5"/>M&M's
+               </td>
+           </tr>
+           <tr class="buttons">
+               <th colspan="2">
+                   <input type="submit" value="Pedir">
+                   <input type="reset" value="Excluir o pedido">
+               </th>
+           </tr>
+           </table>
+       </fieldset>
+   </form>
+</body>
+</html>

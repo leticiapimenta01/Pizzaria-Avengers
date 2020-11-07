@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(250, 250, 137);
+    color: #05053d;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+h1, h2{
+    font-family: 'Anton', sans-serif;
+}
+
+aside.links{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.legenda{
+    display: flex;
+    position: absolute;
+    padding: 00px 2000px 15px 00px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+form{
+    width:700px;
+    margin: 00px 300px;
+    background: #a8cafc;
+    border: 5px solid #ff0000;
+    border-radius: 15px;
+    padding: 80px;
+}
+
+fieldset{
+    border: 0px;
+    margin: 0px;
+}
+
+fieldset legend{
+  font-size: 30px;
+  border-bottom: 1px solid #d3e2e5;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.form{
+    text-align: left;
+}
+
+.buttons input{
+    color: red;
+    margin: 45px 40px; 
+    font-size:30px;
+    background-color: #fafa89;
+    border: none;
+    border-radius:5px;
+    font-family: 'Concert One', cursive;
+}
+
